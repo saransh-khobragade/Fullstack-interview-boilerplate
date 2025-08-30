@@ -1,0 +1,13 @@
+{
+    //https://code.visualstudio.com/docs/reference/variables-reference
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "chrome",
+        "request": "launch",
+        "name": "Launch Chrome against localhost",
+        "url": "http://localhost:5173",
+        "webRoot": "${workspaceFolder}/src"
+      }
+    ]
+  }
